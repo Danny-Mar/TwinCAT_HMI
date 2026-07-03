@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/web-manifest",
-  "name": "Caliber_HMI_Template",
-  "short_name": "Caliber_HMI_Template",
+  "name": "HMI_Template",
+  "short_name": "HMI_Template",
   "icons": [
     {
       "src": "../Images/Manifest/launcher-icon-0-75x.png",

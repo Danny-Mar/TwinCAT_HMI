@@ -26,7 +26,7 @@
     <HmiViewportMaximumScale />
     <HmiViewportUserScaleable>Default</HmiViewportUserScaleable>
     <HmiPostProcessing>True</HmiPostProcessing>
-    <Name>Caliber_HMI_Template</Name>
+    <Name>HMI_Template</Name>
     <HmiCommunicationRouterPort>10100</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.762.56</HmiInitial>
@@ -57,7 +57,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>TwinCAT HMI</PlatformTarget>
-    <DefaultNamespace>Caliber_HMI_Template</DefaultNamespace>
+    <DefaultNamespace>HMI_Template</DefaultNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|TwinCAT HMI' ">
     <DebugType>pdbonly</DebugType>
@@ -67,7 +67,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>TwinCAT HMI</PlatformTarget>
-    <DefaultNamespace>Caliber_HMI_Template</DefaultNamespace>
+    <DefaultNamespace>HMI_Template</DefaultNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" Condition="'$(RestoreProjectStyle)' == 'PackageReference'" />
   <PropertyGroup>
@@ -337,7 +337,7 @@
     <Folder Include="Themes\Base\" />
     <Folder Include="Themes\Base-Dark\" />
     <Folder Include="Server">
-      <WorkingDirectory>Caliber_HMI_Template</WorkingDirectory>
+      <WorkingDirectory>HMI_Template</WorkingDirectory>
     </Folder>
     <Folder Include="Properties" />
     <Content Include=".eslintrc.json">

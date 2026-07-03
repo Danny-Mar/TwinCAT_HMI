@@ -442,7 +442,7 @@
         }
     },
     "PERMESSAGEDEFLATEENABLED": true,
-    "PROJECTNAME": "Caliber_HMI_Template",
+    "PROJECTNAME": "HMI_Template",
     "PROJECTVERSION": "1.0.0.0",
     "REMOTESERVERS": {},
     "REMOTESERVERS_CERTIFICATES": [],
@@ -3472,11 +3472,11 @@
     "USERSELECTTYPE": 0,
     "VIDEOSEGMENTSIZE": 1048576,
     "VIRTUALDIRECTORIES": {
-        "/": "..\\..\\Caliber_HMI_Template\\",
+        "/": "..\\..\\HMI_Template\\",
         "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.762.56\\runtimes\\native1.12-tchmi",
         "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.762.56\\runtimes\\native1.12-tchmi",
-        "/bin": "..\\..\\Caliber_HMI_Template\\bin\\",
-        "/bin/framework": "..\\..\\Caliber_HMI_Template\\bin\\framework",
+        "/bin": "..\\..\\HMI_Template\\bin\\",
+        "/bin/framework": "..\\..\\HMI_Template\\bin\\framework",
         "/framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.762.56\\runtimes\\native1.12-tchmi"
     }
 }
