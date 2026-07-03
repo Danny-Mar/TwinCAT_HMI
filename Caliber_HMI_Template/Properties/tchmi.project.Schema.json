@@ -1,0 +1,245 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "MotorDol_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Motors\\MotorDol_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/MotorDol_UC"
+    },
+    "Axis_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Motors\\Axis_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/Axis_UC"
+    },
+    "NumberPad_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Keyboards\\NumberPad_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/NumberPad_UC"
+    },
+    "UserTimeSetting": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\UserTimeSetting.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserTimeSetting"
+    },
+    "UserSetting": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\UserSetting.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/UserSetting"
+    },
+    "SemiAuto_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\SemiAuto_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SemiAuto_UC"
+    },
+    "MetricsTimer": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\MetricsTimer.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/MetricsTimer"
+    },
+    "MetricsCounter": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\MetricsCounter.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/MetricsCounter"
+    },
+    "MaintenanceTimer": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\General\\MaintenanceTimer.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/MaintenanceTimer"
+    },
+    "ButtonToggle01_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Buttons\\ButtonToggle01_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ButtonToggle01_UC"
+    },
+    "ButtonTextInput_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Buttons\\ButtonTextInput_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ButtonTextInput_UC"
+    },
+    "ButtonNumericalInput_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Buttons\\ButtonNumericalInput_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ButtonNumericalInput_UC"
+    },
+    "ButtonFB_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Buttons\\ButtonFB_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ButtonFB_UC"
+    },
+    "Button01_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Buttons\\Button01_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/Button01_UC"
+    },
+    "SolenoidValveVacuum_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\SolenoidValve\\SolenoidValveVacuum_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SolenoidValveVacuum_UC"
+    },
+    "SolenoidValveRetractExtend_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\SolenoidValve\\SolenoidValveRetractExtend_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SolenoidValveRetractExtend_UC"
+    },
+    "SolenoidValveOffOn_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\SolenoidValve\\SolenoidValveOffOn_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SolenoidValveOffOn_UC"
+    },
+    "SolenoidValveFeedSeperator_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\SolenoidValve\\SolenoidValveFeedSeperator_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SolenoidValveFeedSeperator_UC"
+    },
+    "TempControlUC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\TempController\\TempControlUC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/TempControlUC"
+    },
+    "ProcessControlStation_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ProcessControl\\ProcessControlStation_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ProcessControlStation_UC"
+    },
+    "ProcessControlOverview_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ProcessControl\\ProcessControlOverview_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/ProcessControlOverview_UC"
+    },
+    "GlobalProcessControl_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\ProcessControl\\GlobalProcessControl_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/GlobalProcessControl_UC"
+    },
+    "IO_Label": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\IOMonitor\\IO_Label.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/IO_Label"
+    },
+    "DO_Monitor": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\IOMonitor\\DO_Monitor.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/DO_Monitor"
+    },
+    "DI_Monitor": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\IOMonitor\\DI_Monitor.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/DI_Monitor"
+    },
+    "SafetyRelay_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Safety\\SafetyRelay_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SafetyRelay_UC"
+    },
+    "SafetyDoorLock_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Safety\\SafetyDoorLock_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SafetyDoorLock_UC"
+    },
+    "SafetyDevice_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Safety\\SafetyDevice_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/SafetyDevice_UC"
+    },
+    "IndicatorLamp01MultiSate_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Indicators\\IndicatorLamp01MultiSate_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/IndicatorLamp01MultiSate_UC"
+    },
+    "IndicatorLamp01_UC": {
+      "frameworkControlNamespace": "TcHmi.Controls.Beckhoff",
+      "frameworkControlType": "TcHmi.Controls.System.TcHmiUserControl",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkUserControlConfig": "UserControl\\Indicators\\IndicatorLamp01_UC.usercontrol.json",
+      "type": "object",
+      "id": "tchmi:project#/definitions/IndicatorLamp01_UC"
+    }
+  }
+}

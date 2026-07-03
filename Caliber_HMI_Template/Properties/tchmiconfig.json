@@ -1,0 +1,221 @@
+{
+  "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.762.56/runtimes/native1.12-tchmi/Schema/TchmiConfig.Schema.json",
+  "basePath": "./framework",
+  "scaleMode": "None",
+  "startupView": "Desktop.view",
+  "loginPage": "",
+  "tcHmiServer": {
+    "websocketIntervalTime": 500,
+    "websocketTimeout": 20000,
+    "websocketSystemTimeout": 60000,
+    "websocketSubscriptionMode": "Change"
+  },
+  "activeTheme": "Base",
+  "themes": {
+    "Base-Dark": {
+      "resources": [
+        {
+          "name": "Themes/Base-Dark/Base-DarkStyle.css",
+          "description": "",
+          "type": "Stylesheet"
+        },
+        {
+          "name": "Themes/Base-Dark/Base-Dark.theme",
+          "description": "",
+          "type": "ThemedValues"
+        }
+      ],
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
+    },
+    "Base": {
+      "resources": [
+        {
+          "name": "Themes/Base/Base.theme",
+          "description": "",
+          "type": "ThemedValues"
+        },
+        {
+          "name": "Themes/Base/BaseStyle.css",
+          "description": "",
+          "type": "Stylesheet"
+        }
+      ],
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
+    }
+  },
+  "dependencyFiles": [
+    {
+      "name": "Fonts/Fonts.css",
+      "description": "",
+      "type": "Stylesheet"
+    }
+  ],
+  "userControls": [
+    {
+      "url": "UserControl/Motors/MotorDol_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Motors/Axis_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Keyboards/NumberPad_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/General/UserTimeSetting.usercontrol"
+    },
+    {
+      "url": "UserControl/General/UserSetting.usercontrol"
+    },
+    {
+      "url": "UserControl/General/SemiAuto_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/General/MetricsTimer.usercontrol"
+    },
+    {
+      "url": "UserControl/General/MetricsCounter.usercontrol"
+    },
+    {
+      "url": "UserControl/General/MaintenanceTimer.usercontrol"
+    },
+    {
+      "url": "UserControl/Buttons/ButtonToggle01_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Buttons/ButtonTextInput_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Buttons/ButtonNumericalInput_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Buttons/ButtonFB_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Buttons/Button01_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/SolenoidValve/SolenoidValveVacuum_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/SolenoidValve/SolenoidValveRetractExtend_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/SolenoidValve/SolenoidValveOffOn_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/SolenoidValve/SolenoidValveFeedSeperator_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/TempController/TempControlUC.usercontrol"
+    },
+    {
+      "url": "UserControl/ProcessControl/ProcessControlStation_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/ProcessControl/ProcessControlOverview_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/ProcessControl/GlobalProcessControl_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/IOMonitor/IO_Label.usercontrol"
+    },
+    {
+      "url": "UserControl/IOMonitor/DO_Monitor.usercontrol"
+    },
+    {
+      "url": "UserControl/IOMonitor/DI_Monitor.usercontrol"
+    },
+    {
+      "url": "UserControl/Safety/SafetyRelay_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Safety/SafetyDoorLock_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Safety/SafetyDevice_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Indicators/IndicatorLamp01MultiSate_UC.usercontrol"
+    },
+    {
+      "url": "UserControl/Indicators/IndicatorLamp01_UC.usercontrol"
+    }
+  ],
+  "content": [],
+  "views": [
+    {
+      "url": "Desktop.view",
+      "preload": false,
+      "keepAlive": false,
+      "preloadBindings": false
+    }
+  ],
+  "userFunctions": [],
+  "symbols": {
+    "internal": {},
+    "themedResources": {}
+  },
+  "trigger": [],
+  "actionTemplates": [],
+  "languages": {
+    "de": "Localization/de.localization",
+    "en": "Localization/en.localization"
+  },
+  "languageFallback": "",
+  "disableLoadingOptimization": false,
+  "creatorSettings": {
+    "viewport": {
+      "defaultWidth": 800,
+      "defaultHeight": 600
+    }
+  },
+  "binding": {
+    "symbolError": "Ignore"
+  },
+  "packages": [
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Controls",
+      "basePath": "/Beckhoff.TwinCAT.HMI.Controls"
+    },
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Framework",
+      "basePath": "/framework"
+    },
+    {
+      "name": "Beckhoff.TwinCAT.HMI.Functions",
+      "basePath": "/Beckhoff.TwinCAT.HMI.Functions"
+    }
+  ],
+  "keyboardLayouts": [
+    {
+      "url": "KeyboardLayouts/German - compact.keyboard.json"
+    },
+    {
+      "url": "KeyboardLayouts/Numpad (plusminus).keyboard.json"
+    },
+    {
+      "url": "KeyboardLayouts/US - compact.keyboard.json"
+    }
+  ],
+  "systemKeyboard": {
+    "providerName": "",
+    "projectKeyboardMapping": {
+      "de": {
+        "text": "KeyboardLayouts/German - compact.keyboard.json",
+        "decimal": "KeyboardLayouts/Numpad (plusminus).keyboard.json",
+        "numeric": ""
+      },
+      "en": {
+        "text": "KeyboardLayouts/US - compact.keyboard.json",
+        "decimal": "KeyboardLayouts/Numpad (plusminus).keyboard.json",
+        "numeric": ""
+      }
+    }
+  },
+  "systemPopups": {
+    "providerName": "Beckhoff.TcHmiPopups"
+  }
+}
