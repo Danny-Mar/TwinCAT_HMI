@@ -1,0 +1,17 @@
+<div id="IndicatorLamp01_UC_274" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-zindex="1">
+
+<div id="IndicatorLamp01_UC_On_275" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px"  data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-src="%f%'Images/Indicators/Lamps/Indicator-Lamp1-'+%pp%OnColour%/pp%+'-'+%pp%OnIlluminated%/pp%+'.svg'%/f%" data-tchmi-visibility="%f%TcHmi.Functions.Beckhoff.ConvertBooleanToVisibility(%pp%State%/pp%, 'Hidden')%/f%" data-tchmi-zindex="1">
+
+
+
+
+
+
+
+</div>
+
+<div id="IndicatorLamp01_UC_Off_275" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px"  data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-src="%f%'Images/Indicators/Lamps/Indicator-Lamp1-'+%pp%OffColour%/pp%+'-'+%pp%OffIlluminated%/pp%+'.svg'%/f%"  data-tchmi-zindex="0">
+
+</div>
+
+</div>

@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-io_label",
+      "displayName": "IO_Label",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "IO_Label",
+      "propertySetterName": "setIO_Label",
+      "propertyGetterName": "getIO_Label",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-d_output",
+      "displayName": "D_Output",
+      "visible": true,
+      "type": "tchmi:project#/definitions/PLC1.ST_EL2008",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "D_Output",
+      "propertySetterName": "setD_Output",
+      "propertyGetterName": "getD_Output",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.756.1/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

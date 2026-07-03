@@ -1,0 +1,52 @@
+<div id="IndicatorLamp01MultiSate_UC" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="100" data-tchmi-height="100" data-tchmi-width-unit="%" data-tchmi-height-unit="%" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500">
+
+<div id="IndicatorLamp01MultiSate_UC_Image" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiStateImage" data-tchmi-height="100" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-state="%pp%State%/pp%" data-tchmi-fallback-image="Images/Beckhoff_Logo.svg">
+
+
+<script data-tchmi-target-attribute="data-tchmi-state-list" type="application/json">
+[
+  {
+    "state": "%f%0%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Blue-Off.svg"
+  },
+  {
+    "state": "%f%1%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Blue-On.svg"
+  },
+  {
+    "state": "%f%2%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Green-Off.svg"
+  },
+  {
+    "state": "%f%3%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Green-On.svg"
+  },
+  {
+    "state": "%f%4%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Grey-Off.svg"
+  },
+  {
+    "state": "%f%5%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Grey-On.svg"
+  },
+  {
+    "state": "%f%6%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Red-Off.svg"
+  },
+  {
+    "state": "%f%7%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Red-On.svg"
+  },
+  {
+    "state": "%f%8%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Yellow-Off.svg"
+  },
+  {
+    "state": "%f%9%/f%",
+    "stateIcon": "Images/Indicators/Lamps/Indicator-Lamp1-Yellow-On.svg"
+  }
+]
+</script>
+</div>
+
+</div>

@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-devicedescription",
+      "displayName": "DeviceDescription",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "DeviceDescription",
+      "propertySetterName": "setDeviceDescription",
+      "propertyGetterName": "getDeviceDescription",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-timevar",
+      "displayName": "TimeVar",
+      "visible": true,
+      "type": "tchmi:general#/definitions/TIME",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "TimeVar",
+      "propertySetterName": "setTimeVar",
+      "propertyGetterName": "getTimeVar",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

@@ -1,0 +1,39 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-hmi",
+      "displayName": "Hmi",
+      "visible": true,
+      "type": "tchmi:server#/definitions/PLC1.SafetyDeviceHmi_ST",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Hmi",
+      "propertySetterName": "setHmi",
+      "propertyGetterName": "getHmi",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-devicedescription",
+      "displayName": "DeviceDescription",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "DeviceDescription",
+      "propertySetterName": "setDeviceDescription",
+      "propertyGetterName": "getDeviceDescription",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.750.1/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

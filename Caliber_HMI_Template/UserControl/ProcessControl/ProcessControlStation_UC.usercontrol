@@ -1,0 +1,956 @@
+<div id="ProcessControlStation_UC" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="710" data-tchmi-height="150" data-tchmi-width-unit="px" data-tchmi-height-unit="px" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500">
+
+<div id="ProcessControlStation_UC_Container01" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="150" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="710" data-tchmi-width-unit="px" data-tchmi-zindex="1" data-tchmi-creator-visibility="Visible">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+<div id="ProcessControlStation_UC_Textblock01" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="1" data-tchmi-top-unit="px" data-tchmi-width="213" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Top" data-tchmi-text-font-size="18" data-tchmi-text="%pp%DeviceDescription%/pp%" data-tchmi-zindex="3">
+{
+    tchmi.
+}
+
+
+
+
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_Textblock02" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="State Description:" data-tchmi-top="3" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+
+</div>
+<div id="ProcessControlStation_UC_Textblock03" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="%pp%Hmi::STATE_DESC%/pp%" data-tchmi-top="23" data-tchmi-top-unit="px" data-tchmi-width="250" data-tchmi-width-unit="px" data-tchmi-word-wrap="False" data-tchmi-zindex="15" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-style="Auto" data-tchmi-text-font-weight="Auto">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 0.9607843)"
+}
+</script>
+</div>
+<div id="ProcessControlStation_UC_Textblock04" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="Step Description:" data-tchmi-top="50" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="3">
+
+</div>
+<div id="ProcessControlStation_UC_Textblock05" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="%pp%Hmi::STEP_DESC%/pp%" data-tchmi-top="70" data-tchmi-top-unit="px" data-tchmi-width="470" data-tchmi-width-unit="px" data-tchmi-word-wrap="False" data-tchmi-zindex="15" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-style="Auto" data-tchmi-text-font-weight="Auto">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 0.9607843)"
+}
+</script>
+</div>
+<div id="ProcessControlStation_UC_Textblock06" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-text="Fault Description:" data-tchmi-top="95" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="7">
+
+
+
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::STATE::FLT%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Textblock06');",
+          "var _StateFlt = TcHmi.Symbol.readEx('%pp%Hmi::STATE::FLT%/pp%');",
+          "",
+          "if (_StateFlt) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="ProcessControlStation_UC_Textblock07" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="228" data-tchmi-left-unit="px" data-tchmi-top="115" data-tchmi-top-unit="px" data-tchmi-width="470" data-tchmi-width-unit="px" data-tchmi-word-wrap="False" data-tchmi-zindex="14" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-style="Auto" data-tchmi-text-font-weight="Auto" data-tchmi-text="%pp%Hmi::FLT_DESC%/pp%">
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 5.0,
+  "topRight": 5.0,
+  "bottomLeft": 5.0,
+  "bottomRight": 5.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(255, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 0.9607843)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::STATE::FLT%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Textblock07');",
+          "var _StateFlt = TcHmi.Symbol.readEx('%pp%Hmi::STATE::FLT%/pp%');",
+          "",
+          "if (_StateFlt) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_Button01_UC04" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="65" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::STA%/pp%" data-tchmi-text="Start" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::STA_VIS%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC04');",
+          "var _staVis = TcHmi.Symbol.readEx('%pp%Hmi::STA_VIS%/pp%');",
+          "",
+          "if (_staVis) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="ProcessControlStation_UC_Button01_UC05" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="78" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="65" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::STP%/pp%" data-tchmi-text="Stop" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::STP_VIS%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC05');",
+          "var _stpVis = TcHmi.Symbol.readEx('%pp%Hmi::STP_VIS%/pp%');",
+          "",
+          "if (_stpVis) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_Button01_UC06" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="153" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="65" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::PSE%/pp%" data-tchmi-text="Pause" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::PSE_VIS%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC06');",
+          "var _pseVis = TcHmi.Symbol.readEx('%pp%Hmi::PSE_VIS%/pp%');",
+          "",
+          "if (_pseVis) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="ProcessControlStation_UC_Button01_UC07" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-text="Restart" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_Button01_UC07.onPressed",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "TcHmi.Symbol.readEx2('%pp%Hmi::RSTA%/pp%', function (data) {",
+          "    if (data.error === TcHmi.Errors.NONE) {",
+          "        // Handle result value... ",
+          "        var value = data.value; ",
+          "        if (!value) {\t",
+          "\t    \tif (confirm('Are you sure you want to reset the Step Sequence?')) {",
+          "\t\t\t\tTcHmi.Symbol.writeEx('%pp%Hmi::RSTA%/pp%', true);",
+          "\t\t\t}",
+          "        }",
+          "    } else {",
+          "        // Handle error... ",
+          "    }",
+          "});"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::RSTA%/pp%",
+    "actions": [
+      {
+        "objectType": "Condition",
+        "active": true,
+        "parts": [
+          {
+            "if": [
+              {
+                "compare1": {
+                  "objectType": "Symbol",
+                  "valueType": "tchmi:general#/definitions/String",
+                  "symbolExpression": "%pp%Hmi::RSTA%/pp%"
+                },
+                "compare2": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "value": true
+                },
+                "compareOperator": "==",
+                "logic": null
+              }
+            ],
+            "then": [
+              {
+                "objectType": "WriteToSymbol",
+                "active": true,
+                "symbolExpression": "%pp%Hmi::RSTA%/pp%",
+                "value": {
+                  "objectType": "StaticValue",
+                  "valueType": "tchmi:general#/definitions/BOOL",
+                  "value": false
+                },
+                "asyncWait": true
+              }
+            ]
+          },
+          {
+            "else": []
+          }
+        ],
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::STEP_EN%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC07');",
+          "var _StepEn = TcHmi.Symbol.readEx('%pp%Hmi::STATE::STEP_EN%/pp%');",
+          "",
+          "if (!_StepEn) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="ProcessControlStation_UC_Button01_UC08" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="78" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::FLT_RST%/pp%" data-tchmi-text="Fault Reset" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::STATE::FLT%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC08');",
+          "var _StateFlt = TcHmi.Symbol.readEx('%pp%Hmi::STATE::FLT%/pp%');",
+          "",
+          "if (_StateFlt) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_Button01_UC09" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="153" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::RSUM%/pp%" data-tchmi-text="Resume" data-tchmi-zindex="3">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%Hmi::RSUM_VIS%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_Button01_UC09');",
+          "var _rsumVis = TcHmi.Symbol.readEx('%pp%Hmi::RSUM_VIS%/pp%');",
+          "",
+          "if (_rsumVis) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(160, 160, 160, 1)"
+}
+</script>
+
+<div id="ProcessControlStation_UC_ButtonToggle01_UC01" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::AUTO%/pp%" data-tchmi-text="Auto" data-tchmi-zindex="17">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_ButtonToggle01_UC01.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": true
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO_SEMI%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::MAN%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::OFF%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC01');",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StateRun = TcHmi.Symbol.readEx('%pp%Hmi::STATE::RUN%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StateRun) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::RUN%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC01');",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StateRun = TcHmi.Symbol.readEx('%pp%Hmi::STATE::RUN%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StateRun) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_ButtonToggle01_UC02" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="78" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::AUTO_SEMI%/pp%" data-tchmi-text="Semi-Auto" data-tchmi-zindex="17">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_ButtonToggle01_UC02.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO_SEMI%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": true
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::MAN%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::OFF%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC02');",
+          "",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StatePsed = TcHmi.Symbol.readEx('%pp%Hmi::STATE::PSED%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StatePsed) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::PSED%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC02');",
+          "",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StatePsed = TcHmi.Symbol.readEx('%pp%Hmi::STATE::PSED%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StatePsed) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_ButtonToggle01_UC03" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="153" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%Hmi::MAN%/pp%" data-tchmi-text="Manual" data-tchmi-zindex="17">
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_ButtonToggle01_UC03.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::AUTO_SEMI%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": false
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%pp%Hmi::MAN%/pp%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:general#/definitions/BOOL",
+          "value": true
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::OFF%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC03');",
+          "",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StatePsed = TcHmi.Symbol.readEx('%pp%Hmi::STATE::PSED%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StatePsed) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  },
+  {
+    "event": "%pp%Hmi::STATE::PSED%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('ProcessControlStation_UC_ButtonToggle01_UC03');",
+          "",
+          "var _StateOff = TcHmi.Symbol.readEx('%pp%Hmi::STATE::OFF%/pp%');",
+          "var _StatePsed = TcHmi.Symbol.readEx('%pp%Hmi::STATE::PSED%/pp%');",
+          "",
+          "",
+          "if (_StateOff or _StatePsed) {",
+          "  _uc.setVisibility('Visible');",
+          "} else {",
+          "  _uc.setVisibility('Hidden');",
+          "}"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="ProcessControlStation_UC_Button01_UC11" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="627" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="20" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-text="Process Config" data-tchmi-zindex="3" data-tchmi-visibility="%pp%ConfigVisibility[0]%/pp%">
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_Button01_UC11.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%ProcessControlStation_UC_Container02::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+</div>
+
+<div id="ProcessControlStation_UC_Container02" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="150" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="710" data-tchmi-width-unit="px" data-tchmi-zindex="1" data-tchmi-creator-locked="False" data-tchmi-creator-visibility="Visible" data-tchmi-visibility="Collapsed">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+<div id="ProcessControlStation_UC_Textblock08" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="1" data-tchmi-top-unit="px" data-tchmi-width="173" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Top" data-tchmi-text-font-size="18" data-tchmi-zindex="3" data-tchmi-text="Process Tasks">
+{
+    tchmi.
+}
+
+
+
+
+</div>
+
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(160, 160, 160, 1)"
+}
+</script>
+
+<div id="ProcessControlStation_UC_Button01_UC10" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="25" data-tchmi-height-unit="px" data-tchmi-left="680" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/Button01_UC.usercontrol" data-tchmi-top="-2" data-tchmi-top-unit="px" data-tchmi-width="25" data-tchmi-width-unit="px" data-tchmi-text="X" data-tchmi-zindex="1">
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "ProcessControlStation_UC_Button01_UC10.onPressed",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%ProcessControlStation_UC_Container02::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Collapsed"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="ButtonToggle01_UC01" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[1]%/pp%" data-tchmi-text="%pp%ProcessDescription[1]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[1]%/pp%">
+</div>
+<div id="ButtonToggle01_UC02" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="78" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[2]%/pp%" data-tchmi-text="%pp%ProcessDescription[2]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[2]%/pp%">
+</div>
+<div id="ButtonToggle01_UC03" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="152" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[3]%/pp%" data-tchmi-text="%pp%ProcessDescription[3]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[3]%/pp%">
+</div>
+<div id="ButtonToggle01_UC04" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="227" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[4]%/pp%" data-tchmi-text="%pp%ProcessDescription[4]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[4]%/pp%">
+</div>
+<div id="ButtonToggle01_UC05" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="301" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[5]%/pp%" data-tchmi-text="%pp%ProcessDescription[5]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[5]%/pp%">
+</div>
+<div id="ButtonToggle01_UC06" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="376" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[6]%/pp%" data-tchmi-text="%pp%ProcessDescription[6]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[6]%/pp%">
+</div>
+<div id="ButtonToggle01_UC07" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="451" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[7]%/pp%" data-tchmi-text="%pp%ProcessDescription[7]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[7]%/pp%">
+</div>
+<div id="ButtonToggle01_UC08" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="526" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[8]%/pp%" data-tchmi-text="%pp%ProcessDescription[8]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[8]%/pp%">
+</div>
+<div id="ButtonToggle01_UC09" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="601" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="25" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[9]%/pp%" data-tchmi-text="%pp%ProcessDescription[9]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[9]%/pp%">
+</div>
+<div id="ButtonToggle01_UC10" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[10]%/pp%" data-tchmi-text="%pp%ProcessDescription[10]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[10]%/pp%">
+</div>
+<div id="ButtonToggle01_UC11" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="78" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[11]%/pp%" data-tchmi-text="%pp%ProcessDescription[11]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[11]%/pp%">
+</div>
+<div id="ButtonToggle01_UC12" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="152" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[12]%/pp%" data-tchmi-text="%pp%ProcessDescription[12]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[12]%/pp%">
+</div>
+<div id="ButtonToggle01_UC13" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="227" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[13]%/pp%" data-tchmi-text="%pp%ProcessDescription[13]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[13]%/pp%">
+</div>
+<div id="ButtonToggle01_UC14" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="301" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[14]%/pp%" data-tchmi-text="%pp%ProcessDescription[14]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[14]%/pp%">
+</div>
+<div id="ButtonToggle01_UC15" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControlHost" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="376" data-tchmi-left-unit="px" data-tchmi-target-user-control="UserControl/Buttons/ButtonToggle01_UC.usercontrol" data-tchmi-top="105" data-tchmi-top-unit="px" data-tchmi-width="70" data-tchmi-width-unit="px" data-tchmi-state="%pp%ProcessConfig[15]%/pp%" data-tchmi-text="%pp%ProcessDescription[15]%/pp%" data-tchmi-visibility="%pp%ConfigVisibility[15]%/pp%">
+</div>
+<div id="ProcessControlStation_UC_Textblock12" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="24" data-tchmi-height-unit="px" data-tchmi-left="10" data-tchmi-left-unit="px" data-tchmi-top="79" data-tchmi-top-unit="px" data-tchmi-width="173" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Top" data-tchmi-text-font-size="18" data-tchmi-zindex="3" data-tchmi-text="Preset Configurations">
+{
+    tchmi.
+}
+
+
+
+
+</div>
+</div>
+</div>

@@ -1,0 +1,55 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-value",
+      "displayName": "Value",
+      "visible": true,
+      "type": "tchmi:general#/definitions/LREAL",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Value",
+      "propertySetterName": "setValue",
+      "propertyGetterName": "getValue",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-minvalue",
+      "displayName": "MinValue",
+      "visible": true,
+      "type": "tchmi:general#/definitions/LREAL",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "MinValue",
+      "propertySetterName": "setMinValue",
+      "propertyGetterName": "getMinValue",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-maxvalue",
+      "displayName": "MaxValue",
+      "visible": true,
+      "type": "tchmi:general#/definitions/LREAL",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "MaxValue",
+      "propertySetterName": "setMaxValue",
+      "propertyGetterName": "getMaxValue",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

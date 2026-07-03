@@ -1,0 +1,740 @@
+<div id="MetricsCounter_6" data-tchmi-type="TcHmi.Controls.System.TcHmiUserControl" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-creator-viewport-width="500" data-tchmi-creator-viewport-height="500" data-tchmi-width="230" data-tchmi-height="260">
+
+<div id="Metrics_UC_Container01_1" data-tchmi-type="TcHmi.Controls.System.TcHmiContainer" data-tchmi-height="260" data-tchmi-height-unit="px" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="230" data-tchmi-width-unit="px" data-tchmi-zindex="0" data-tchmi-creator-visibility="Visible">
+<div id="Metrics_UC_Textblock02_8" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="20" data-tchmi-height-unit="px" data-tchmi-left="3" data-tchmi-left-unit="px" data-tchmi-text="%pp%Description%/pp%" data-tchmi-top="0" data-tchmi-top-unit="px" data-tchmi-width="215" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Bottom" data-tchmi-text-font-size="14" data-tchmi-zindex="6">
+
+</div>
+
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(160, 160, 160, 1)"
+}
+</script>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTimerTextblock00" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="89" data-tchmi-left-unit="px" data-tchmi-text="Turntable" data-tchmi-top="43" data-tchmi-top-unit="px" data-tchmi-width="125" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="2">
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTime_UC_0" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="43" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%CycleTime[0]%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('CycleTime_UC_0');",
+          "var _time = TcHmi.Symbol.readEx('%pp%CycleTime[0]%/pp%');",
+          "",
+          "_time = _time.replace('P','');",
+          "_time = _time.replace('T','');",
+          "",
+          "var _dayLoc = _time.indexOf('D');",
+          "var _hourLoc = _time.indexOf('H');",
+          "var _minuteLoc = _time.indexOf('M');",
+          "var _secondLoc = _time.indexOf('S');",
+          "var _day = 0;",
+          "var _hour = 0;",
+          "var _second = 0;",
+          "var _minute = 0;",
+          "",
+          "",
+          "if (_dayLoc != -1) {",
+          "_day = _time.slice(0, _dayLoc);",
+          "} ",
+          "",
+          "if (_hourLoc != -1) {",
+          "\tif (_dayLoc != -1) {",
+          "\t\t_hour = _time.slice(_dayLoc + 1, _hourLoc);",
+          "\t} else {",
+          "\t\t_hour = _time.slice(0, _hourLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_minuteLoc != -1) {",
+          "\tif (_hourLoc != -1) {",
+          "\t\t_minute = _time.slice(_hourLoc + 1, _minuteLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_minute = _time.slice(_dayLoc + 1, _minuteLoc);",
+          "\t} else {",
+          "\t\t_minute = _time.slice(0, _minuteLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_secondLoc != -1) {",
+          "\tif (_minuteLoc != -1) {",
+          "\t\t_second = _time.slice(_minuteLoc + 1, _secondLoc);",
+          "\t} else if (_hourLoc != -1) {",
+          "\t\t_second = _time.slice(_hourLoc + 1, _secondLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_second = _time.slice(_dayLoc + 1, _secondLoc);",
+          "\t} else {",
+          "\t\t_second = _time.slice(0, _secondLoc);",
+          "\t}",
+          "}",
+          "",
+          "var _Secvalue = parseFloat(_second);",
+          "_Secvalue = _Secvalue.toFixed(0);",
+          "",
+          "var _timeElapsed = \"\";",
+          "",
+          "if (_day != 0)",
+          "{",
+          "\t_timeElapsed += (_day + \"d \");",
+          "}",
+          "",
+          "if (_hour != 0)",
+          "{",
+          "\t_timeElapsed += (_hour + \"h \");",
+          "}",
+          "",
+          "if (_minute != 0)",
+          "{",
+          "\t_timeElapsed += (_minute + \"m \");",
+          "}",
+          "",
+          "",
+          "_timeElapsed += (_Secvalue + \"s\");",
+          "",
+          "",
+          "_uc.setText(_timeElapsed);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTime_UC_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="83" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%CycleTime[1]%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('CycleTime_UC_1');",
+          "var _time = TcHmi.Symbol.readEx('%pp%CycleTime[1]%/pp%');",
+          "",
+          "_time = _time.replace('P','');",
+          "_time = _time.replace('T','');",
+          "",
+          "var _dayLoc = _time.indexOf('D');",
+          "var _hourLoc = _time.indexOf('H');",
+          "var _minuteLoc = _time.indexOf('M');",
+          "var _secondLoc = _time.indexOf('S');",
+          "var _day = 0;",
+          "var _hour = 0;",
+          "var _second = 0;",
+          "var _minute = 0;",
+          "",
+          "",
+          "if (_dayLoc != -1) {",
+          "_day = _time.slice(0, _dayLoc);",
+          "} ",
+          "",
+          "if (_hourLoc != -1) {",
+          "\tif (_dayLoc != -1) {",
+          "\t\t_hour = _time.slice(_dayLoc + 1, _hourLoc);",
+          "\t} else {",
+          "\t\t_hour = _time.slice(0, _hourLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_minuteLoc != -1) {",
+          "\tif (_hourLoc != -1) {",
+          "\t\t_minute = _time.slice(_hourLoc + 1, _minuteLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_minute = _time.slice(_dayLoc + 1, _minuteLoc);",
+          "\t} else {",
+          "\t\t_minute = _time.slice(0, _minuteLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_secondLoc != -1) {",
+          "\tif (_minuteLoc != -1) {",
+          "\t\t_second = _time.slice(_minuteLoc + 1, _secondLoc);",
+          "\t} else if (_hourLoc != -1) {",
+          "\t\t_second = _time.slice(_hourLoc + 1, _secondLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_second = _time.slice(_dayLoc + 1, _secondLoc);",
+          "\t} else {",
+          "\t\t_second = _time.slice(0, _secondLoc);",
+          "\t}",
+          "}",
+          "",
+          "var _Secvalue = parseFloat(_second);",
+          "_Secvalue = _Secvalue.toFixed(0);",
+          "",
+          "var _timeElapsed = \"\";",
+          "",
+          "if (_day != 0)",
+          "{",
+          "\t_timeElapsed += (_day + \"d \");",
+          "}",
+          "",
+          "if (_hour != 0)",
+          "{",
+          "\t_timeElapsed += (_hour + \"h \");",
+          "}",
+          "",
+          "if (_minute != 0)",
+          "{",
+          "\t_timeElapsed += (_minute + \"m \");",
+          "}",
+          "",
+          "",
+          "_timeElapsed += (_Secvalue + \"s\");",
+          "",
+          "",
+          "_uc.setText(_timeElapsed);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTime_UC_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="123" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%CycleTime[2]%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('CycleTime_UC_2');",
+          "var _time = TcHmi.Symbol.readEx('%pp%CycleTime[2]%/pp%');",
+          "",
+          "_time = _time.replace('P','');",
+          "_time = _time.replace('T','');",
+          "",
+          "var _dayLoc = _time.indexOf('D');",
+          "var _hourLoc = _time.indexOf('H');",
+          "var _minuteLoc = _time.indexOf('M');",
+          "var _secondLoc = _time.indexOf('S');",
+          "var _day = 0;",
+          "var _hour = 0;",
+          "var _second = 0;",
+          "var _minute = 0;",
+          "",
+          "",
+          "if (_dayLoc != -1) {",
+          "_day = _time.slice(0, _dayLoc);",
+          "} ",
+          "",
+          "if (_hourLoc != -1) {",
+          "\tif (_dayLoc != -1) {",
+          "\t\t_hour = _time.slice(_dayLoc + 1, _hourLoc);",
+          "\t} else {",
+          "\t\t_hour = _time.slice(0, _hourLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_minuteLoc != -1) {",
+          "\tif (_hourLoc != -1) {",
+          "\t\t_minute = _time.slice(_hourLoc + 1, _minuteLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_minute = _time.slice(_dayLoc + 1, _minuteLoc);",
+          "\t} else {",
+          "\t\t_minute = _time.slice(0, _minuteLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_secondLoc != -1) {",
+          "\tif (_minuteLoc != -1) {",
+          "\t\t_second = _time.slice(_minuteLoc + 1, _secondLoc);",
+          "\t} else if (_hourLoc != -1) {",
+          "\t\t_second = _time.slice(_hourLoc + 1, _secondLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_second = _time.slice(_dayLoc + 1, _secondLoc);",
+          "\t} else {",
+          "\t\t_second = _time.slice(0, _secondLoc);",
+          "\t}",
+          "}",
+          "",
+          "var _Secvalue = parseFloat(_second);",
+          "_Secvalue = _Secvalue.toFixed(0);",
+          "",
+          "var _timeElapsed = \"\";",
+          "",
+          "if (_day != 0)",
+          "{",
+          "\t_timeElapsed += (_day + \"d \");",
+          "}",
+          "",
+          "if (_hour != 0)",
+          "{",
+          "\t_timeElapsed += (_hour + \"h \");",
+          "}",
+          "",
+          "if (_minute != 0)",
+          "{",
+          "\t_timeElapsed += (_minute + \"m \");",
+          "}",
+          "",
+          "",
+          "_timeElapsed += (_Secvalue + \"s\");",
+          "",
+          "",
+          "_uc.setText(_timeElapsed);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTime_UC_3" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="163" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%CycleTime[3]%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('CycleTime_UC_3');",
+          "var _time = TcHmi.Symbol.readEx('%pp%CycleTime[3]%/pp%');",
+          "",
+          "_time = _time.replace('P','');",
+          "_time = _time.replace('T','');",
+          "",
+          "var _dayLoc = _time.indexOf('D');",
+          "var _hourLoc = _time.indexOf('H');",
+          "var _minuteLoc = _time.indexOf('M');",
+          "var _secondLoc = _time.indexOf('S');",
+          "var _day = 0;",
+          "var _hour = 0;",
+          "var _second = 0;",
+          "var _minute = 0;",
+          "",
+          "",
+          "if (_dayLoc != -1) {",
+          "_day = _time.slice(0, _dayLoc);",
+          "} ",
+          "",
+          "if (_hourLoc != -1) {",
+          "\tif (_dayLoc != -1) {",
+          "\t\t_hour = _time.slice(_dayLoc + 1, _hourLoc);",
+          "\t} else {",
+          "\t\t_hour = _time.slice(0, _hourLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_minuteLoc != -1) {",
+          "\tif (_hourLoc != -1) {",
+          "\t\t_minute = _time.slice(_hourLoc + 1, _minuteLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_minute = _time.slice(_dayLoc + 1, _minuteLoc);",
+          "\t} else {",
+          "\t\t_minute = _time.slice(0, _minuteLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_secondLoc != -1) {",
+          "\tif (_minuteLoc != -1) {",
+          "\t\t_second = _time.slice(_minuteLoc + 1, _secondLoc);",
+          "\t} else if (_hourLoc != -1) {",
+          "\t\t_second = _time.slice(_hourLoc + 1, _secondLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_second = _time.slice(_dayLoc + 1, _secondLoc);",
+          "\t} else {",
+          "\t\t_second = _time.slice(0, _secondLoc);",
+          "\t}",
+          "}",
+          "",
+          "var _Secvalue = parseFloat(_second);",
+          "_Secvalue = _Secvalue.toFixed(0);",
+          "",
+          "var _timeElapsed = \"\";",
+          "",
+          "if (_day != 0)",
+          "{",
+          "\t_timeElapsed += (_day + \"d \");",
+          "}",
+          "",
+          "if (_hour != 0)",
+          "{",
+          "\t_timeElapsed += (_hour + \"h \");",
+          "}",
+          "",
+          "if (_minute != 0)",
+          "{",
+          "\t_timeElapsed += (_minute + \"m \");",
+          "}",
+          "",
+          "",
+          "_timeElapsed += (_Secvalue + \"s\");",
+          "",
+          "",
+          "_uc.setText(_timeElapsed);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTime_UC_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="8" data-tchmi-left-unit="px" data-tchmi-top="203" data-tchmi-top-unit="px" data-tchmi-width="76" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-zindex="5">
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 2,
+  "right": 2,
+  "top": 2,
+  "bottom": 2,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-radius" type="application/json">
+{
+  "topLeft": 10.0,
+  "topRight": 10.0,
+  "bottomLeft": 10.0,
+  "bottomRight": 10.0,
+  "topLeftUnit": "px",
+  "topRightUnit": "px",
+  "bottomLeftUnit": "px",
+  "bottomRightUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "%pp%CycleTime[4]%/pp%",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "var _uc = TcHmi.Controls.get('CycleTime_UC_4');",
+          "var _time = TcHmi.Symbol.readEx('%pp%CycleTime[4]%/pp%');",
+          "",
+          "_time = _time.replace('P','');",
+          "_time = _time.replace('T','');",
+          "",
+          "var _dayLoc = _time.indexOf('D');",
+          "var _hourLoc = _time.indexOf('H');",
+          "var _minuteLoc = _time.indexOf('M');",
+          "var _secondLoc = _time.indexOf('S');",
+          "var _day = 0;",
+          "var _hour = 0;",
+          "var _second = 0;",
+          "var _minute = 0;",
+          "",
+          "",
+          "if (_dayLoc != -1) {",
+          "_day = _time.slice(0, _dayLoc);",
+          "} ",
+          "",
+          "if (_hourLoc != -1) {",
+          "\tif (_dayLoc != -1) {",
+          "\t\t_hour = _time.slice(_dayLoc + 1, _hourLoc);",
+          "\t} else {",
+          "\t\t_hour = _time.slice(0, _hourLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_minuteLoc != -1) {",
+          "\tif (_hourLoc != -1) {",
+          "\t\t_minute = _time.slice(_hourLoc + 1, _minuteLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_minute = _time.slice(_dayLoc + 1, _minuteLoc);",
+          "\t} else {",
+          "\t\t_minute = _time.slice(0, _minuteLoc);",
+          "\t}",
+          "} ",
+          "",
+          "if (_secondLoc != -1) {",
+          "\tif (_minuteLoc != -1) {",
+          "\t\t_second = _time.slice(_minuteLoc + 1, _secondLoc);",
+          "\t} else if (_hourLoc != -1) {",
+          "\t\t_second = _time.slice(_hourLoc + 1, _secondLoc);",
+          "\t} else\tif (_dayLoc != -1) {",
+          "\t\t_second = _time.slice(_dayLoc + 1, _secondLoc);",
+          "\t} else {",
+          "\t\t_second = _time.slice(0, _secondLoc);",
+          "\t}",
+          "}",
+          "",
+          "var _Secvalue = parseFloat(_second);",
+          "_Secvalue = _Secvalue.toFixed(0);",
+          "",
+          "var _timeElapsed = \"\";",
+          "",
+          "if (_day != 0)",
+          "{",
+          "\t_timeElapsed += (_day + \"d \");",
+          "}",
+          "",
+          "if (_hour != 0)",
+          "{",
+          "\t_timeElapsed += (_hour + \"h \");",
+          "}",
+          "",
+          "if (_minute != 0)",
+          "{",
+          "\t_timeElapsed += (_minute + \"m \");",
+          "}",
+          "",
+          "",
+          "_timeElapsed += (_Secvalue + \"s\");",
+          "",
+          "",
+          "_uc.setText(_timeElapsed);"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTimerTextblock00_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="89" data-tchmi-left-unit="px" data-tchmi-text="Station 1" data-tchmi-top="83" data-tchmi-top-unit="px" data-tchmi-width="125" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="2">
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTimerTextblock00_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="89" data-tchmi-left-unit="px" data-tchmi-text="Station 2" data-tchmi-top="123" data-tchmi-top-unit="px" data-tchmi-width="125" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="2">
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTimerTextblock00_3" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="88" data-tchmi-left-unit="px" data-tchmi-text="Station 3" data-tchmi-top="163" data-tchmi-top-unit="px" data-tchmi-width="125" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="2">
+</div>
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="CycleTimerTextblock00_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="88" data-tchmi-left-unit="px" data-tchmi-text="Station 4" data-tchmi-top="203" data-tchmi-top-unit="px" data-tchmi-width="125" data-tchmi-width-unit="px" data-tchmi-word-wrap="True" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-zindex="2">
+</div>
+</div>
+</div>

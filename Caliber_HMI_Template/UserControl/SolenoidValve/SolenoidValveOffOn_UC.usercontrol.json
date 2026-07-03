@@ -1,0 +1,71 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-hmi",
+      "displayName": "Hmi",
+      "visible": true,
+      "type": "tchmi:project#/definitions/PLC1.SolenoidValveOffOnHmi_ST",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Hmi",
+      "propertySetterName": "setHmi",
+      "propertyGetterName": "getHmi",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-devicedescription",
+      "displayName": "DeviceDescription",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "DeviceDescription",
+      "propertySetterName": "setDeviceDescription",
+      "propertyGetterName": "getDeviceDescription",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-onbuttondescription",
+      "displayName": "OnButtonDescription",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "OnButtonDescription",
+      "propertySetterName": "setOnButtonDescription",
+      "propertyGetterName": "getOnButtonDescription",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-oninterlockdescription",
+      "displayName": "OnInterlockDescription",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "OnInterlockDescription",
+      "propertySetterName": "setOnInterlockDescription",
+      "propertyGetterName": "getOnInterlockDescription",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}

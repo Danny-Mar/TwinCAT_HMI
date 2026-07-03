@@ -1,0 +1,71 @@
+{
+  "parameters": [
+    {
+      "name": "data-tchmi-description",
+      "displayName": "Description",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Description",
+      "propertySetterName": "setDescription",
+      "propertyGetterName": "getDescription",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-identifier",
+      "displayName": "Identifier",
+      "visible": true,
+      "type": "tchmi:general#/definitions/String",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "Identifier",
+      "propertySetterName": "setIdentifier",
+      "propertyGetterName": "getIdentifier",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-dailycount",
+      "displayName": "DailyCount",
+      "visible": true,
+      "type": "tchmi:project#/definitions/PLC1.Tc2_Standard.CTU",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "DailyCount",
+      "propertySetterName": "setDailyCount",
+      "propertyGetterName": "getDailyCount",
+      "refTo": ""
+    },
+    {
+      "name": "data-tchmi-totalcount",
+      "displayName": "TotalCount",
+      "visible": true,
+      "type": "tchmi:project#/definitions/PLC1.Tc2_Standard.CTU",
+      "category": "",
+      "description": "",
+      "requiredOnCompile": false,
+      "readOnly": false,
+      "bindable": true,
+      "heritable": true,
+      "propertyName": "TotalCount",
+      "propertySetterName": "setTotalCount",
+      "propertyGetterName": "getTotalCount",
+      "refTo": ""
+    }
+  ],
+  "virtualRights": [],
+  "$schema": "./../../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.754.4/runtimes/native1.12-tchmi/Schema/UserControlConfig.Schema.json",
+  "description": ""
+}
